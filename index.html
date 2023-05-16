@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Turisteando</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="shortcut icon" href="recursos/a-pie.png" type="image/x-icon">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- EL MENU DE NAVEGACION -->
+	<nav class="navegacion">
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<a href="#about" class="enlace">
+			<img src="recursos/logo.png" alt="Logo de empresa" class="logo">
+		</a>
+		<ul class="opciones">
+			<!-- class="active" Para colocarlo azul-->
+			<li class="listaOpciones"><a href="#about">¿Quienes somos?</a></li>
+			<li class="listaOpciones"><a href="#services">Nuestros servicios</a></li>
+			<li class="listaOpciones"><a href="#contact">Contactos</a></li>
+			<!--
+            <li class="listaOpciones"><a href="#">Portafolio</a></li>
+            <li class="listaOpciones"><a href="#">Contacto</a></li>
+            -->
+		</ul>
+	</nav>
+
+
+	<!-- PARA EL BOTON FLOTANTE DE WHATSAPP -->
+	<div class="icono-flotante">
+		<a href="https://wa.me/8493756581" target="_blank">
+			<img src="recursos/whatsapp.png" alt="WhatsApp">
+		</a>
+	</div>
+	<!-- PARA EL BOTON FLOTANTE DE WHATSAPP -->
+
+	<main>
+		<section id="about">
+
+			<div class="container">
+				<div class="left">
+					<h1>Compañía Independiente</h1>
+					<p>Somos una empresa comprometida con la calidad y la innovación en el mercado. Con anos de
+						experiencia en el sector turistico, brindando buen servicio a nuestros clientes.</p>
+				</div>
+
+				<div class="right">
+					<img src="recursos/turista.jpg" alt="Imagen degradada">
+					<div class="overlay">
+						<p id="parrafoNosotros">Turisteando</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="nosotrosDebajo">
+				<ul class="ulNosotros">
+					<li class="liNosotros">
+						<img src="recursos/iconos/bicicleta.svg" s>
+						<h2>Excursiones</h2>
+						<p>Realizamos paseos grupales en biclicletas por diferentes rutas en el pais.</p>
+					</li>
+
+					<li class="liNosotros">
+						<img src="recursos/iconos/sombrilla.svg">
+						<h2>Playas</h2>
+						<p>Realizamos escursiones a las mejores playas del pais, siempre con algo diferente.</p>
+					</li>
+
+					<li class="liNosotros">
+						<img src="recursos/iconos/buggy.svg">
+						<h2>Paseos</h2>
+						<p>Realizamos paseos motorisados en buggys y demas monturas.</p>
+					</li>
+
+					<li class="liNosotros">
+						<img src="recursos/iconos/rio.svg">
+						<h2>Rios</h2>
+						<p>Realizamos escursiones a los mejores rios del pais, donde la pasamos bien.</p>
+					</li>
+
+				</ul>
+			</div>
+			<div class="decorated-line"></div>
+
+		</section>
+
+		<section id="services">
+			<div class="contenedorServicios">
+				<div class="servicioIzquierdo">
+					<img src="recursos/fotos/turismo.jpg">
+				</div>
+				<div class="servicioDerecho">
+					<h2>Turismo en todo el pais</h2>
+					<p>El turismo es una actividad muy importante en todo el país, ya que ofrece una oportunidad única
+						para conocer la cultura, la historia y la belleza natural de cada región. Desde las playas
+						caribeñas hasta las montañas andinas, pasando por las ciudades coloniales y las selvas
+						tropicales, hay algo para todos los gustos y presupuestos.</p>
+				</div>
+				<div class="servicioAbajo">
+
+				</div>
+				<div class="servicioArriba">
+
+				</div>
+			</div>
+
+
+			<!-- PREGUNTAS FRECUENTES. -->
+			<div class="faq">
+				<div class="question">
+					<h3>¿Qué es Lorem Ipsum?</h3>
+					<div class="answer">
+						<p>Es un texto simulado utilizado en la industria de la impresión y la edición electrónica.
+							Lorem Ipsum ha sido el texto de relleno estándar de la industria desde el siglo XVI, cuando
+							un impresor desconocido tomó una galería de tipos y los mezcló para hacer un libro de
+							muestras tipográficas.</p>
+					</div>
+				</div>
+
+				<div class="question">
+					<h3>¿Qué es Lorem Ipsum?</h3>
+					<div class="answer">
+						<p>Es un texto simulado utilizado en la industria de la impresión y la edición electrónica.
+							Lorem Ipsum ha sido el texto de relleno estándar de la industria desde el siglo XVI, cuando
+							un impresor desconocido tomó una galería de tipos y los mezcló para hacer un libro de
+							muestras tipográficas.</p>
+					</div>
+				</div>
+
+				<div class="question">
+					<h3>¿Por qué se utiliza Lorem Ipsum?</h3>
+					<div class="answer">
+						<p>El Lorem Ipsum es un texto simulado que se utiliza como relleno en diseños gráficos,
+							editoriales y de sitios web. Su propósito es reemplazar el contenido real para que los
+							diseñadores puedan visualizar cómo se verá un diseño completo sin tener que esperar a que se
+							produzca el contenido real.</p>
+					</div>
+				</div>
+			</div>
+			<!-- PREGUNTAS FRECUENTES FIN. -->
+
+		</section>
+
+		<section id="contact">
+			<h2>Informacion de contacto</h2>
+			<p>Aquí van nuestra infrmacion de contacto.</p>
+		</section>
+	</main>
+
+
+
+	<!-- PIE DE PAGINA -->
+	<footer>
+		<div class="footer-container">
+			<div class="social-icons">
+				<a href="https://www.facebook.com/" target="_blank"><img src="recursos/facebook.png" alt="Facebook"></a>
+				<a href="https://www.instagram.com/" target="_blank"><img src="recursos/instagram.png"
+						alt="Instagram"></a>
+				<a href="https://twitter.com/" target="_blank"><img src="recursos/twiter.png" alt="Twitter"></a>
+			</div>
+			<p>&copy; 2023 Tu Sitio Web. Todos los derechos reservados.</p>
+		</div>
+	</footer>
+	<script src="funciones.js"></script>
+</body>
+
+</html>
